@@ -13,7 +13,6 @@ server {
     }
 
     location ~ \.php$ {
-        root /app/public;
 
         set $server '*';
 

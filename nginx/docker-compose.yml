@@ -6,8 +6,7 @@ services:
     container_name: nginx
     hostname: nginx
     networks:
-      server-network:
-        aliases:
+      - server-network
     logging:
       driver: json-file
       options:
