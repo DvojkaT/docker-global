@@ -9,6 +9,8 @@ RUN install-php-extensions calendar exif gd gettext intl \
                            sockets sysvmsg sysvsem sysvshm \
                            opcache zip
 RUN install-php-extensions pgsql pdo_pgsql
+RUN install-php-extensions redis xdebug soap
+
 
 
 COPY php /usr/local/etc
