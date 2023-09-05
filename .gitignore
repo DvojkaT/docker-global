@@ -12,6 +12,11 @@
 !mariadb/*.sh
 !mariadb/Dockerfile
 
+!mysql/
+!mysql/*.yml
+!mysql/*.sh
+!mysql/Dockerfile
+
 !php/
 !php/**
 !redis/
